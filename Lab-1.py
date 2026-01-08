@@ -1,4 +1,4 @@
-'''#write a program to check whether a given number is prime or not without using functions
+#write a program to check whether a given number is prime or not without using functions
 num = int(input("Enter a number: "))
 if num > 1:
     for i in range(2, int(num**0.5) + 1):
@@ -8,7 +8,7 @@ if num > 1:
     else:
         print(num, "is a prime number")
 else:
-    print(num, "is not a prime number")'''
+    print(num, "is not a prime number")
 
 #  optimize the above code 
 num = int(input("Enter a number: "))
